@@ -31,7 +31,7 @@ function Header() {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "text-orange font-bold"
+                  ? "text-orange border-b-2 border-orange"
                   : "text-white  hover:text-orange"
               }
               onClick={() => setOpen(false)}
@@ -44,7 +44,7 @@ function Header() {
               to="/about"
               className={({ isActive }) =>
                 isActive
-                  ? "text-orange font-bold"
+                  ? "text-orange border-b-2 border-orange"
                   : "text-white  hover:text-orange"
               }
               onClick={() => setOpen(false)}
@@ -57,7 +57,7 @@ function Header() {
               to="/menu"
               className={({ isActive }) =>
                 isActive
-                  ? "text-orange font-bold"
+                  ? "text-orange border-b-2 border-orange"
                   : "text-white  hover:text-orange"
               }
               onClick={() => setOpen(false)}
@@ -70,7 +70,7 @@ function Header() {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? "text-orange font-bold"
+                  ? "text-orange border-b-2 border-orange"
                   : "text-white  hover:text-orange"
               }
               onClick={() => setOpen(false)}
