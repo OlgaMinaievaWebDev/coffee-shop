@@ -29,7 +29,7 @@ function Header() {
           <li>
             <NavLink
               to="/"
-              className="text-orange hover:text-orange-dark"
+              className="text-white hover:text-orange"
               onClick={() => setOpen(false)}
             >
               Home
@@ -38,7 +38,7 @@ function Header() {
           <li>
             <NavLink
               to="/about"
-              className="text-orange hover:text-orange-dark"
+              className="text-white hover:text-orange"
               onClick={() => setOpen(false)}
             >
               About
@@ -47,7 +47,7 @@ function Header() {
           <li>
             <NavLink
               to="/menu"
-              className="text-orange hover:text-orange-dark"
+              className="text-white hover:text-orange"
               onClick={() => setOpen(false)}
             >
               Menu
@@ -56,7 +56,7 @@ function Header() {
           <li>
             <NavLink
               to="/contact"
-              className="text-orange hover:text-orange-dark"
+              className="text-white hover:text-orange"
               onClick={() => setOpen(false)}
             >
               Contact Us
