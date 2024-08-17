@@ -10,8 +10,8 @@ function Header() {
   };
 
   return (
-    <header className="flex items-center justify-between px-4 mx-auto lg:max-w md:px-8 h-16 bg-darkBrown text-white">
-      <h1 className="text-xl font-bold text-orange">ROASTERS</h1>
+    <header className="flex items-center justify-between px-4 mx-auto lg:max-w-auto md:px-8 h-16 bg-darkBrown text-white">
+      <h1 className="text-xl font-bold font-heading text-orange">ROASTERS</h1>
       <div className="md:hidden">
         <button
           className="p-2 text-white rounded-md outline-none focus:border-orange-dark focus:border"
@@ -25,7 +25,7 @@ function Header() {
           open ? "block" : "hidden"
         }`}
       >
-        <ul className="flex flex-col items-center space-y-6 md:flex-row md:space-x-6 md:space-y-0">
+        <ul className="flex flex-col items-center space-y-6 md:flex-row md:space-x-6 md:space-y-0 text-xl">
           <li>
             <NavLink
               to="/"

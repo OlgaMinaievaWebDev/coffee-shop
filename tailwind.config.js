@@ -8,6 +8,10 @@ export default {
         orange: "#FF9900",
         "orange-dark": "#CC7A00",
       },
+      fontFamily: {
+        heading: ["Playfair Display", "serif"],
+        body: ["Lato", "sans-serif"],
+      },
     },
   },
   plugins: [],
