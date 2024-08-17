@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        darkBrown: "#2D2B2B",
+        darkBrown: "#2c2016",
+        darkerBrown: "#20160f",
         orange: "#FF9900",
         "orange-dark": "#CC7A00",
       },
