@@ -1,11 +1,11 @@
 import { Outlet, useNavigation } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 
 function AppLayout() {
   const navigation = useNavigation();
   return (
     <>
-      <Navbar />
+      <Header />
       <main>
         <Outlet />
       </main>
