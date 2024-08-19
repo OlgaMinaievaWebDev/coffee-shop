@@ -3,11 +3,11 @@ import MenuItem from "./MenuItem";
 
 function Menu() {
   return (
-    <div className="flex flex-col">
+    <section className="flex flex-col items-center justify-center  bg-darkerBrown text-white text-center px-4 py-12 h-[80vh] lg:max-w-auto mx-auto">
       {menuItems.map((item, index) => (
         <MenuItem item={item} key={index} />
       ))}
-    </div>
+    </section>
   );
 }
 
