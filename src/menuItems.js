@@ -1,7 +1,7 @@
 const menuItems = [
   {
     name: "Colombian Dark Roast",
-    photo: "../public/coffee-bag.webp",
+    img: "../public/coffee-bag.webp",
     id: 1,
     type: "Dark",
     region: "Colombia",
@@ -11,7 +11,7 @@ const menuItems = [
   },
   {
     name: "Ethiopian Medium Roast",
-    photo: "../public/coffee-bag.webp",
+    img: "../public/coffee-bag.webp",
     id: 2,
     type: "Medium",
     region: "Ethiopia",
@@ -21,7 +21,7 @@ const menuItems = [
   },
   {
     name: "Brazilian Blonde Roast",
-    photo: "../public/coffee-bag.webp",
+    img: "../public/coffee-bag.webp",
     id: 2,
     type: "Blonde",
     region: "Brazil",
@@ -31,7 +31,7 @@ const menuItems = [
   },
   {
     name: "USA Dark Roast",
-    photo: "../public/coffee-bag.webp",
+    img: "../public/coffee-bag.webp",
     id: 3,
     type: "Dark",
     region: "USA",
@@ -41,7 +41,7 @@ const menuItems = [
   },
   {
     name: "Colombian Medium Roast",
-    photo: "../public/coffee-bag.webp",
+    img: "../public/coffee-bag.webp",
     id: 4,
     type: "Medium",
     region: "Colombia",
@@ -51,7 +51,7 @@ const menuItems = [
   },
   {
     name: "Guatemalan Blonde Roast",
-    photo: "../public/coffee-bag.webp",
+    img: "../public/coffee-bag.webp",
     id: 5,
     type: "Blonde",
     region: "Guatemala",
@@ -61,7 +61,7 @@ const menuItems = [
   },
   {
     name: "Sumatra Dark Roast",
-    photo: "../public/coffee-bag.webp",
+    img: "../public/coffee-bag.webp",
     id: 6,
     type: "Dark",
     region: "Sumatra",
@@ -71,7 +71,7 @@ const menuItems = [
   },
   {
     name: "Kenyan Medium Roast",
-    photo: "../public/coffee-bag.webp",
+    img: "../public/coffee-bag.webp",
     id: 7,
     type: "Medium",
     region: "Kenya",
@@ -81,7 +81,7 @@ const menuItems = [
   },
   {
     name: "Honduran Blonde Roast",
-    photo: "../public/coffee-bag.webp",
+    img: "../public/coffee-bag.webp",
     id: 8,
     type: "Blonde",
     region: "Honduras",
