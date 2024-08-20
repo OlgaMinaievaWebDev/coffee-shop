@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="p-2 md:p-4 bg-darkerBrown text-white w-full">
+    <div className="p-2 md:p-8 bg-darkerBrown text-white w-full">
       <h2 className="text-xl font-bold text-orange-dark text-center mb-4 uppercase">
         About Us
       </h2>
