@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function AppLayout() {
   return (
@@ -8,6 +9,7 @@ function AppLayout() {
       <main className="flex-1 bg-red-500">
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 }

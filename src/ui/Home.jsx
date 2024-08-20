@@ -1,5 +1,7 @@
 import Menu from "../components/Menu";
+import About from "../components/About";
 import Button from "./Button";
+import Contact from "../components/Contact";
 
 function HeroSection() {
   return (
@@ -19,8 +21,14 @@ function HeroSection() {
           <Button type="secondary">Learn More</Button>
         </div>
       </section>
-      <section id="menu">
+      <section>
         <Menu />
+      </section>
+      <section>
+        <About />
+      </section>
+      <section>
+        <Contact />
       </section>
     </div>
   );

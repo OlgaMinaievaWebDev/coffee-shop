@@ -10,8 +10,8 @@ function Header() {
   };
 
   return (
-    <header className="flex items-center justify-between px-4 mx-auto lg:max-w-auto md:px-8 h-20 bg-darkBrown text-white">
-      <h1 className="text-xl font-bold font-heading text-orange">ROASTERS</h1>
+    <header className="flex items-center justify-between px-4 w-full md:px-8 h-20 bg-darkBrown text-white">
+      <h1 className="text-2xl font-bold font-heading text-orange">ROASTERS</h1>
       <div className="md:hidden">
         <button
           className="p-2 text-white rounded-md outline-none focus:border-orange-dark focus:border"
