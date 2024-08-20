@@ -41,19 +41,6 @@ function Header() {
           </li>
           <li>
             <NavLink
-              to="/about"
-              className={({ isActive }) =>
-                isActive
-                  ? "text-orange border-b-2 border-orange"
-                  : "text-white  hover:text-orange"
-              }
-              onClick={() => setOpen(false)}
-            >
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
               to="/menu"
               className={({ isActive }) =>
                 isActive
@@ -63,6 +50,19 @@ function Header() {
               onClick={() => setOpen(false)}
             >
               Menu
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-orange border-b-2 border-orange"
+                  : "text-white  hover:text-orange"
+              }
+              onClick={() => setOpen(false)}
+            >
+              About
             </NavLink>
           </li>
           <li>
